@@ -1,6 +1,8 @@
-# Test case code must be written inside the method
-# Method name must be started with test
+# Test case code must be written inside the method name must be started with test
 # to run test case command: pytest testcase/method name
+import pytest
 
+
+@pytest.mark.Smoke
 def test_tc_002_Registration_Testing():
-    print("this is our test case code")
+    print("this is Smoke test case code")
